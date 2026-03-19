@@ -11,7 +11,6 @@ import com.library.entity.User;
 import com.library.repository.UserRepository;
 import com.library.service.PasswordResetService;
 
-@CrossOrigin(origins = "http://localhost:4200")
 @RestController
 @RequestMapping("/api/auth")
 public class PasswordResetController {

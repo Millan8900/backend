@@ -14,7 +14,6 @@ import com.library.service.UserService;
 
 @RestController
 @RequestMapping("/api/student")
-@CrossOrigin(origins = {"http://localhost:4200", "https://librarymng1.netlify.app"})
 public class StudentController {
 
     @Autowired

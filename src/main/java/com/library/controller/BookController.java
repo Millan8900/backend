@@ -12,7 +12,6 @@ import org.springframework.web.multipart.MultipartFile;
 import com.library.entity.Book;
 import com.library.repository.BookRepository;
 
-@CrossOrigin(origins = "http://localhost:4200")  // Allow Angular frontend
 @RestController
 @RequestMapping("/api/books")
 public class BookController {

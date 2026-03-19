@@ -24,7 +24,6 @@ import com.library.service.MailService;
 
 @RestController
 @RequestMapping("/api/borrow")
-@CrossOrigin(origins = {"http://localhost:4200", "https://librarymng1.netlify.app"})
 public class BorrowController {
 
     @Autowired

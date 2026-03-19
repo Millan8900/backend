@@ -10,7 +10,6 @@ import com.library.service.MailService;
 
 @RestController
 @RequestMapping("/api/reminder")
-@CrossOrigin(origins = "http://localhost:4200")
 public class ReminderController {
 
     @Autowired

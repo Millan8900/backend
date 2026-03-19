@@ -9,7 +9,6 @@ import com.library.service.BookService;
 
 @RestController
 @RequestMapping("/api/librarian")
-@CrossOrigin(origins = {"http://localhost:4200", "https://librarymng1.netlify.app"})
 public class LibrarianController {
 
     @Autowired

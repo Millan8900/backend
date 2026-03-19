@@ -6,7 +6,6 @@ import com.library.service.MailService;
 
 @RestController
 @RequestMapping("/api/mail")
-@CrossOrigin(origins = "http://localhost:4200")
 public class MailController {
 
     @Autowired
