@@ -10,7 +10,7 @@ import com.library.service.UserService;
 
 @RestController
 @RequestMapping("/api/approval")
-@CrossOrigin(origins = "http://localhost:4200", allowCredentials = "true")
+@CrossOrigin(origins = {"http://localhost:4200", "https://librarymng1.netlify.app"})
 public class ApprovalController {
 
     @Autowired
