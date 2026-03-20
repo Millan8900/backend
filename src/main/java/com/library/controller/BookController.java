@@ -57,7 +57,7 @@ public class BookController {
         book.setAvailableCopies(availableCopies);
 
         // 3) Set imageUrl so Angular can display it
-        String imageUrl = "http://localhost:8080/images/" + fileName;
+        String imageUrl = "https://backend-production-35363.up.railway.app/images/" + fileName;
         book.setImageUrl(imageUrl);
 
         return bookRepository.save(book);
