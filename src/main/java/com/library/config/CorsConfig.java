@@ -17,7 +17,7 @@ public class CorsConfig {
                 registry.addMapping("/**")
                         .allowedOrigins(
                                 "http://localhost:4200",
-                                "https://librarymng1.netlify.app"
+                                "https://library142.netlify.app/"
                         )
                         .allowedMethods("*")
                         .allowedHeaders("*")
