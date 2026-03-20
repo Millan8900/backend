@@ -8,13 +8,13 @@ import org.springframework.web.client.RestTemplate;
 @Service
 public class EmailService {
 
-    @Value("${brevo.api.key}")
+    @Value("${BREVO_API_KEY}")
     private String apiKey;
 
-    @Value("${brevo.sender.email}")
+    @Value("${BREVO_SENDER_EMAIL}")
     private String senderEmail;
 
-    @Value("${brevo.sender.name}")
+    @Value("${BREVO_SENDER_NAME}")
     private String senderName;
 
     private final RestTemplate restTemplate = new RestTemplate();
